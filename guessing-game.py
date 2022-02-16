@@ -2,6 +2,7 @@ import random
 from random import randint
 
 print ("Welcome to the number guessing game!")
+print ("Your number set between 0 to 99")
 random.seed(input("Enter random seed: "))
 play = "yes"
 

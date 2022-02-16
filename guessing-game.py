@@ -21,4 +21,9 @@ while play == "yes":
             play = input("\nWould you like to play again (yes/no)? ")
             if play == "no":
                 print ("Thank you. Goodbye.")
+            elif play != "yes":
+                print ("That is not a valid input")
             break
+            
+
+print ("David was here")
